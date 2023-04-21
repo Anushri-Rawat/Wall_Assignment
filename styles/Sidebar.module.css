@@ -1,0 +1,263 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 16px 24px;
+  gap: 32px;
+  position: relative;
+  width: 292px;
+  height: 640px;
+  background: #111111;
+  border-radius: 16px;
+}
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 221.01px;
+  height: 116px;
+}
+.sidebarHeaderLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 84.01px;
+  height: 116px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.sidebarHeaderImg {
+  width: 84.01px;
+  height: 84px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: relative;
+}
+.headerImage {
+  position: absolute;
+  left: 5.96px;
+  right: 6.05px;
+  top: 6.05px;
+  bottom: 37.95px;
+  border-radius: 1e9px;
+}
+.statusBar {
+  position: absolute;
+  width: 84.01px;
+  height: 84px;
+  left: 0px;
+  top: 0px;
+}
+.levelTag {
+  display: flex;
+  padding: 8px;
+  gap: 8px;
+  height: 28px;
+  background: rgba(248, 169, 16, 0.1);
+  border-radius: 44px;
+}
+.levelTagSpan {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  color: #ffc148;
+}
+.sidebarHeaderRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+  width: 125px;
+  height: 54px;
+}
+.sidebarHeaderRightH2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.sidebarHeaderRightSpan {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #a2a2a2;
+}
+.sidebarSocials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 174px;
+  height: 32px;
+}
+.twitterSocial {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+  width: 126px;
+  height: 32px;
+  background: #1a1a1a;
+  border-radius: 24px;
+}
+.twitterSocialImg {
+  width: 24px;
+  height: 24px;
+}
+.twitterSocialSpan {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #a2a2a2;
+}
+.worldwidewebimg {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px;
+  gap: 8px;
+
+  width: 32px;
+  height: 32px;
+  background: #1a1a1a;
+  border-radius: 24px;
+}
+.sidebarDescriptionPara {
+  width: 258px;
+  height: 72px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #a2a2a2;
+}
+.sidebarCommunity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 260px;
+  height: 76px;
+}
+.sidebarCommunitySpan {
+  width: 162px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #a2a2a2;
+}
+.sidebarCommunityImgContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 260px;
+  height: 48px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.sidebarTags {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 260px;
+  height: 100px;
+}
+.sidebarTagsLine1,
+.sidebarTagsLine2,
+.sidebarTagsLine3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+
+  width: 247px;
+  height: 28px;
+}
+.sidebarTag {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 10px;
+  gap: 8px;
+  height: 28px;
+  border: 1px solid #1a1a1a;
+  border-radius: 40px;
+}
+.sidebarTagSpan {
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a2a2a2;
+}
+.outline {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 10px;
+  gap: 8px;
+  height: 28px;
+  border-radius: 40px;
+  border: 1px solid #ffc148;
+}
+.outlineSpan {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffc148;
+}
+.subscribeButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 37px;
+  gap: 8px;
+
+  width: 260px;
+  height: 44px;
+  border: 1px solid #a2a2a2;
+  border-radius: 24px;
+  background: transparent;
+}
+.subscribeButtonSpan {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fafafa;
+}
+.subscribeButtonImg {
+  width: 16px;
+  height: 16px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}

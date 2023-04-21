@@ -1,0 +1,126 @@
+.highlightCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 24px;
+  isolation: isolate;
+  /* width: calc(25% - 16px); */
+  width: 201px;
+  height: 148px;
+  background: #111111;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.backgroundGradient {
+  position: absolute;
+  width: 174px;
+  height: 174px;
+  left: -58px;
+  top: -69px;
+  filter: blur(25px);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 100%;
+  align-self: stretch;
+}
+.cardHeaderImage {
+  width: 52px;
+  height: 52px;
+
+  background-color: #2c2c2c;
+  border-radius: 8px;
+}
+.cardHeaderDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  height: 56px;
+}
+.cardHeaderDetailsHeading {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fafafa;
+  font-weight: 500;
+}
+.cardHeaderDetailsTextDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 8px;
+  gap: 8px;
+  border-radius: 19px;
+}
+.cardHeaderDetailsText {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.cardFooterDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+}
+.cardFooterLeft span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #a2a2a2;
+}
+.cardFooterOneRight {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  align-self: stretch;
+}
+.cardFooterOneRight span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fafafa;
+}
+.cardFooterOneRight img {
+  width: 12px;
+  height: 12px;
+}
+/* .card-footer-two-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+  } */
+.cardFooterTwoRight span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #19ed7b;
+}
+
+@media (max-width: 1150px) {
+  .highlightCard {
+    width: 201px;
+    height: 148px;
+  }
+}
